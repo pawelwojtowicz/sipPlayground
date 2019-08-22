@@ -5,3 +5,7 @@ add_executable( sipTest sipTestMain.cpp )
 target_link_libraries( sipTest
 		pjsua2 stdc++ pjsua pjsip-ua pjsip-simple pjsip pjmedia-codec pjmedia pj)
 
+add_executable( sipPlayer sipPlayer.cpp )
+target_link_libraries( sipPlayer
+		pjsua2 stdc++ pjsua pjsip-ua pjsip-simple pjsip pjmedia-codec pjmedia pj)
+
